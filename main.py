@@ -14,6 +14,7 @@ BaseModel.init_app(app)
 app.blueprint(api)
 
 
+
 if __name__ == "__main__":
     add_swagger(app, "/api/v1/swagger.json", "/api/v1/")
     app.run(host="0.0.0.0", port=8000)

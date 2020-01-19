@@ -10,6 +10,9 @@ schematics = "*"
 sanic = "*"
 sanic-transmute = "*"
 sanic-motor = "*"
+aiogram = "*"
+requests = "*"
+emoji = "*"
 
 [requires]
 python_version = "3.7"
